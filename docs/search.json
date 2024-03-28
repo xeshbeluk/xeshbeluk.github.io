@@ -21,6 +21,13 @@
     "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved."
   },
   {
+    "objectID": "cv/cv_index.html",
+    "href": "cv/cv_index.html",
+    "title": "My Resume",
+    "section": "",
+    "text": "Download Resume"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dmitry Solovyev",
@@ -33,19 +40,5 @@
     "title": "Dmitry Solovyev",
     "section": "Statistician | Data Scientist | Policy Analyst",
     "text": "Statistician | Data Scientist | Policy Analyst\n\nAbout me\nI am Dmitry Solovyev, a statistician, data scientist, and policy analyst with experience in data analysis and policy evaluation. My work spans social-economic, healthcare and international domains, where I apply quantitative and qualitative methods to address complex policy challenges.\nAs a statistician, I’ve focused on data integrity and analytical accuracy. My notable project in this domain involved developing a machine learning model to classify the reliability of COVID-19 data, incorporating time-series cross-validation and visualization techniques to ensure model robustness and reliability.\nAs a data scientist, I have leveraged my skills to enhance open access to information. A key project was contributing to the development of a public policy database, aiming to facilitate research through an open-source platform. This initiative has proven vital for researchers seeking accessible, comprehensive data for analysis.\nAs a policy analyst, I’ve applied my analytical skills towards the improvement of public service operations and policy reforms. Through the study of personnel policy in public agencies, my colleagues and I conducted observational research and interviews across several federal ministries, leading to the adoption of new guidelines based on our findings. Additionally, a comparative study on national diplomatic service reforms, in which we investigated the ways to adopt best foreign practices, was presented to the Ministry for Foreign Affairs and has contributed to ongoing policy discussion and development.\nThroughout my academic and professional career, I’ve developed project management and cross-functional collaboration skills. My role often involves presenting findings and insights to target audiences, ensuring clarity and actionable understanding. I drive projects from conception through to completion, effectively communicate complex information, and foster productive communication.\nIn addition, I am fluent in English, Russian and Ukrainian.\n\n\nMy education\n\nMS in Statistics, Oregon State University, 2022-2024\nMaster of Public Policy, Oregon State University, 2021-2023\nBachelor of Political Science, Lomonosov Moscow State University, 2012-2016\n\n\n\nMy skills\nStatistics and data analysis: R (tidyverse, ggplot2, dplyr), Python (sklearn, pandas, numpy, plotly, seaborn, scipy, igraph), SQL\nCloud: BigQuery, pyspark\nVisualization: Tableau\nOther software: ArcGIS, NetLogo, Atlas.ti, SPSS, STATA, Qualtrics"
-  },
-  {
-    "objectID": "cv/cv_index.html",
-    "href": "cv/cv_index.html",
-    "title": "My Resume",
-    "section": "",
-    "text": "Download Resume"
-  },
-  {
-    "objectID": "photography/index.html",
-    "href": "photography/index.html",
-    "title": "Photography",
-    "section": "",
-    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the tutorial for this template (+ download link)"
   }
 ]
