@@ -1,0 +1,62 @@
+# website settings
+website:
+  title: "Dmitry Solovyev"                               
+  description: "Statistician and Policy Analyst"   
+  image: img/my_image.jpg
+
+  
+  # navigation bar 
+  navbar:
+    pinned: true
+    
+
+    left:
+      - text: "Projects"
+        href: projects/projects_index.qmd
+      - text: "Resume"
+        href: cv/cv_index.qmd
+    
+
+    right:
+      - icon: github
+        href: https://github.com/xeshbeluk
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dmitrysolovyev1995/
+      - icon: envelope
+        aria-label: email
+        href: "mailto:soldmibor@gmail.com"  
+  
+  
+
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; \ \  2024 \ \ Dmitry Solovyev  \ \  CC BY-SA 4.0</span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.4em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
