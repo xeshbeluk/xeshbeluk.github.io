@@ -24,7 +24,7 @@ about:
 
 ### About me
 
-I am Dmitry Solovyev, a statistician, data scientist, and policy analyst with experience in data analysis and policy evaluation. My work spans social-economic, healthcare and international domains, where I apply quantitative and qualitative methods to address complex policy challenges.
+I am a statistician, data scientist, and policy analyst with experience in data analysis and policy evaluation. My work spans social-economic, healthcare and international domains, where I apply quantitative and qualitative methods to address complex policy challenges.
 
 As a statistician, I've focused on data integrity and analytical accuracy. My notable project in this domain involved developing a machine learning model to classify the reliability of COVID-19 data, incorporating time-series cross-validation and visualization techniques to ensure model robustness and reliability.
 
