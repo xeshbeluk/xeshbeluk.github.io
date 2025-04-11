@@ -2,6 +2,14 @@
 title: Projects
 ---
 
+#
+
+<img src="project6.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open(,'blank');"/>
+
+<a href="https://trimetds.shinyapps.io/interactive_hotspots_map/" target="_blank">Click here to play with it</a><br>
+
+This interactive map displays bus stops and their corresponding routes, overlaid on a dynamic geographic interface. Users can click on bus stops to view detailed information such as stop name, served routes, and frequency. The map includes demographic overlay filters—such as age, income, race, and disability status—which can be adjusted to visualize how transit accessibility aligns with community characteristics. Filters dynamically update the map to highlight areas of interest and support equity-focused transit planning.
+
 # COVID-19 data quality analysis and their effect on policymaking
 
 <img src="project3c.jpg" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open(,'blank');"/>
