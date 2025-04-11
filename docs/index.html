@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.552">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-about-jolla content">
+<div class="quarto-about-jolla">
   <img src="img/me_image.jpg" class="about-image
   round " style="height: 15em; width: 15em;">
  <div id="about-block">
@@ -155,12 +155,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-anchor-id="statistician-data-scientist-policy-analyst">Statistician | Data Scientist | Policy Analyst</h2>
 <section id="about-me" class="level3">
 <h3 data-anchor-id="about-me">About me</h3>
-<p>I am a statistician, data scientist, and policy analyst with experience in data analysis and policy evaluation. My work spans social-economic, healthcare and international domains, where I apply quantitative and qualitative methods to address complex policy challenges.</p>
-<p>As a statistician, I’ve focused on data integrity and analytical accuracy. My notable project in this domain involved developing a machine learning model to classify the reliability of COVID-19 data, incorporating time-series cross-validation and visualization techniques to ensure model robustness and reliability.</p>
-<p>As a data scientist, I have leveraged my skills to enhance open access to information. A key project was contributing to the development of a public policy database, aiming to facilitate research through an open-source platform. This initiative has proven vital for researchers seeking accessible, comprehensive data for analysis.</p>
-<p>As a policy analyst, I’ve applied my analytical skills towards the improvement of public service operations and policy reforms. Through the study of personnel policy in public agencies, my colleagues and I conducted observational research and interviews across several federal ministries, leading to the adoption of new guidelines based on our findings. Additionally, a comparative study on national diplomatic service reforms, in which we investigated the ways to adopt best foreign practices, was presented to the Ministry for Foreign Affairs and has contributed to ongoing policy discussion and development.</p>
-<p>Throughout my academic and professional career, I’ve developed project management and cross-functional collaboration skills. My role often involves presenting findings and insights to target audiences, ensuring clarity and actionable understanding. I drive projects from conception through to completion, effectively communicate complex information, and foster productive communication.</p>
-<p>In addition, I am fluent in English, Russian and Ukrainian.</p>
+<p>Hello there! My name is Dmitry, I’m a statistician, data scientist, and policy analyst with over five years of experience tackling complex challenges in socio-economic, healthcare, and international policy domains. By blending quantitative methods (machine learning, forecasting, geospatial analysis) with qualitative research, I help organizations transform raw information into actionable insights. My background includes designing robust models—such as a COVID-19 data classification system leveraging time-series cross-validation—along with developing open-access policy databases that empower researchers worldwide.</p>
+<p>Beyond technical expertise, I’ve driven public service improvements by analyzing personnel policies and advising on best practices at the federal level, including reforms shared with the Ministry of Foreign Affairs. Whether deploying data pipelines at TriMet or presenting findings at conferences, I focus on clear communication and inclusive collaboration, guiding projects from concept to completion. Fluent in English, Russian, and Ukrainian, I thrive in cross-cultural settings and aim to enhance policy decision-making on a broader scale.</p>
 </section>
 <section id="my-education" class="level3">
 <h3 data-anchor-id="my-education">My education</h3>
@@ -213,18 +209,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -256,7 +241,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -264,7 +271,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

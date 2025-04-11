@@ -24,17 +24,9 @@ about:
 
 ### About me
 
-I am a statistician, data scientist, and policy analyst with experience in data analysis and policy evaluation. My work spans social-economic, healthcare and international domains, where I apply quantitative and qualitative methods to address complex policy challenges.
+Hello there! My name is Dmitry, I’m a statistician, data scientist, and policy analyst with over five years of experience tackling complex challenges in socio-economic, healthcare, and international policy domains. By blending quantitative methods (machine learning, forecasting, geospatial analysis) with qualitative research, I help organizations transform raw information into actionable insights. My background includes designing robust models—such as a COVID-19 data classification system leveraging time-series cross-validation—along with developing open-access policy databases that empower researchers worldwide.
 
-As a statistician, I've focused on data integrity and analytical accuracy. My notable project in this domain involved developing a machine learning model to classify the reliability of COVID-19 data, incorporating time-series cross-validation and visualization techniques to ensure model robustness and reliability.
-
-As a data scientist, I have leveraged my skills to enhance open access to information. A key project was contributing to the development of a public policy database, aiming to facilitate research through an open-source platform. This initiative has proven vital for researchers seeking accessible, comprehensive data for analysis.
-
-As a policy analyst, I've applied my analytical skills towards the improvement of public service operations and policy reforms. Through the study of personnel policy in public agencies, my colleagues and I conducted observational research and interviews across several federal ministries, leading to the adoption of new guidelines based on our findings. Additionally, a comparative study on national diplomatic service reforms, in which we investigated the ways to adopt best foreign practices, was presented to the Ministry for Foreign Affairs and has contributed to ongoing policy discussion and development.
-
-Throughout my academic and professional career, I've developed project management and cross-functional collaboration skills. My role often involves presenting findings and insights to target audiences, ensuring clarity and actionable understanding. I drive projects from conception through to completion, effectively communicate complex information, and foster productive communication.
-
-In addition, I am fluent in English, Russian and Ukrainian.
+Beyond technical expertise, I’ve driven public service improvements by analyzing personnel policies and advising on best practices at the federal level, including reforms shared with the Ministry of Foreign Affairs. Whether deploying data pipelines at TriMet or presenting findings at conferences, I focus on clear communication and inclusive collaboration, guiding projects from concept to completion. Fluent in English, Russian, and Ukrainian, I thrive in cross-cultural settings and aim to enhance policy decision-making on a broader scale.
 
 ### My education
 
